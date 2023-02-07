@@ -1,0 +1,26 @@
+.HeaderContainer{
+    background-color: rgba(35, 22, 25, 0.6);
+    @apply flex flex-row w-full justify-between items-center px-4 py-3 fixed z-50
+}
+.Nav-Funcs{
+    @apply flex flex-row items-center
+}
+.UlHeader{
+    @apply flex-row items-center hidden
+    md:flex
+}
+.LiHeader{
+    @apply text-[#DABB9E] px-2 py-2 rounded-full mr-4 cursor-pointer
+    transition duration-500 ease-in-out
+    hover:text-[#F8E4BE] hover:bg-gradient-to-br from-[#69584e] via-[#54463e] to-[#69584e]
+    lg:px-4
+}
+.HeaderIcons{
+    @apply w-6 h-6 text-[#DABB9E] mr-2 cursor-pointer
+    transition duration-500 ease-in-out
+    hover:text-[#F8E4BE]
+}
+.BtnHeader{
+    @apply text-[#DABB9E] cursor-pointer ml-4
+    md:hidden
+}

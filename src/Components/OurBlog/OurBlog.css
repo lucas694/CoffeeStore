@@ -1,0 +1,15 @@
+.OurBlogContainer{
+    @apply flex flex-col items-center w-full relative mt-20
+}
+.OurBlogTitle{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F8E4BE;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 4px #F8E4BE;
+    @apply text-7xl font-bold text-[#231619] z-10 absolute -top-14
+}
+.OurBlogContent{
+    background-image: url("../../assets/OurBlog/BgOurBlog.png");
+    @apply flex flex-row w-full justify-center items-center py-10 px-4
+    bg-cover bg-no-repeat bg-center bg-[#53362A]
+}

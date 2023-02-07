@@ -1,0 +1,51 @@
+.OurMenuContainer{
+    @apply flex flex-col w-full mt-40 relative items-center justify-center
+    bg-gradient-to-t from-[#231619] via-[#6b483b] to-[#231619]
+}
+.OurMenuContent{
+    @apply flex flex-col w-full justify-around items-center
+    md:flex-row md:items-stretch
+}
+.OurMenuTitle{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F8E4BE;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 4px #F8E4BE;
+    @apply text-7xl font-bold text-[#231619] z-10 text-center
+}
+.UlControlMenu{
+    @apply flex flex-col w-full items-center py-10
+    md:w-1/3
+}
+
+.UlMenu{
+    @apply flex flex-col h-full w-full px-4
+    md:justify-around md:px-0
+}
+
+.OurMenuImg{
+    @apply w-[50%] object-cover
+    md:w-[20%]
+}
+.LiMenu{
+    font-family: 'Dancing Script', cursive;
+    @apply flex flex-col w-full
+    text-[#F8E4BE] text-3xl font-medium
+}
+.LiMenuText{
+    font-family: 'Dancing Script', cursive;
+    @apply text-[#F8E4BE] text-3xl font-medium w-full
+    flex flex-row py-2 justify-between
+}
+.LiBorderGradient{
+    background-image: linear-gradient(to right, #E0A872, #F8E4BE, #E0A872) ;
+    @apply py-[1px] rounded-full
+}
+
+.MenuLinks{
+    @apply flex flex-row-reverse w-[100%] px-4 text-[#F8E4BE] text-lg font-medium w-full items-center
+    md:px-10
+}
+.OurMenuLink{
+    @apply stroke-[#F8E4BE] w-5 h-5 ml-2 cursor-pointer
+}

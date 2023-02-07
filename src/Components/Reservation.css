@@ -1,0 +1,62 @@
+.ReservationContainer{
+    @apply flex flex-col w-full relative items-center mt-40 py-10
+}
+.ReservationContent{
+    @apply flex flex-col w-[90%] pt-4 pb-10
+    bg-gradient-to-tr from-[#6b483b] via-[#775142] to-[#6b483b] rounded-[40px]
+    border-2 border-[#6b483b]
+    md:flex-row md:py-10
+}
+.ReservationTitle{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F8E4BE;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 4px #F8E4BE;
+    @apply text-6xl font-bold text-[#231619] z-10 absolute -top-1
+    md:text-7xl md:-top-4
+}
+.ReservationLeft{
+    @apply flex w-full items-center justify-center
+    md:w-1/2
+}
+.ReservImg{
+    @apply w-[60%] h-auto object-cover
+    md:w-[80%]
+    xl:w-[50%]
+}
+
+.ReservationRight{
+    @apply flex flex-col w-full px-4 justify-center mt-10
+    md:w-1/2 md:mt-0
+}
+.DoubleFormSec{
+    @apply flex flex-row w-full justify-between space-x-3
+}
+/* Inputs*/
+select {
+    @apply px-4 py-2 w-full rounded-[10px] text-[#9D8781] font-medium text-lg
+    outline-none cursor-pointer appearance-none
+}
+.LabelForm{
+    @apply bg-white px-4 py-1 w-full rounded-2xl text-[#231619] font-medium
+    flex flex-row justify-between items-center
+}
+input{
+    @apply px-4 py-2 w-full rounded-[10px] text-[#9D8781] font-medium text-lg cursor-pointer
+    outline-none
+}
+input::placeholder{
+    @apply text-[#9D8781] font-medium text-lg
+}
+.IconsForm{
+    @apply fill-[#A4663C] font-medium w-7 h-7
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #A4663C;
+    font-size: 24px;
+}
+input[type="time"]::-webkit-calendar-picker-indicator {
+    color: #A4663C;
+    font-size: 24px;
+}

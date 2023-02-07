@@ -1,0 +1,41 @@
+.OurStoryContainer{
+    @apply flex items-center justify-center flex-col w-full text-white z-10 py-20
+    relative
+}
+.CarouselContainer{
+    @apply flex w-[90%] justify-center items-center overflow-visible
+}
+.OurStoryTitle{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F8E4BE;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 4px #F8E4BE;
+    @apply text-7xl font-bold text-[#231619] z-10 absolute top-8
+    md:right-24 md:top-7
+    xl:right-44
+}
+.CarouselItem{
+    @apply flex flex-col items-center justify-center w-full
+    py-20 bg-gradient-to-bl from-[#6b483b] via-[#775142] to-[#6b483b] rounded-[40px]
+    border-2 border-[#6b483b]
+    md:flex-row
+}
+.CarouselLeft{
+    @apply w-full flex flex-col items-center justify-center relative
+    md:w-[50%]
+}
+.CarouselRight{
+    @apply w-full flex flex-col items-center justify-center
+    md:w-[60%] md:items-start
+    lg:w-[70%]
+}
+.CarouselImg{
+    @apply w-[80%]
+    md:absolute md:w-[80%]
+    lg:w-[50%]
+}
+.CarouseDesc{
+    @apply w-[95%] text-center text-[#F8E4BE] text-sm font-medium
+    md:text-sm md:w-[90%]
+    lg:w-[80%] lg:text-base
+}

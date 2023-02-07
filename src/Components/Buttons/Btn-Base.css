@@ -1,0 +1,17 @@
+.BtnHero{
+    @apply bg-[#3B2D2B] text-[#F8E4BE] px-8 py-2 rounded-full font-normal text-base w-full
+    hover:bg-[#69584e]
+    transition duration-500 ease-in-out
+}
+.BtnBorder{
+    background-image: linear-gradient(to right, #E0A872, #F8E4BE, #E0A872) ;
+
+    @apply px-[2px] py-[2px] rounded-full
+    md:mr-2
+}
+
+.BtnForm{
+    @apply bg-[#3B2D2B] text-[#F8E4BE] px-8 py-3 rounded-full font-normal text-base w-full
+    hover:bg-[#69584e]
+    transition duration-500 ease-in-out
+}

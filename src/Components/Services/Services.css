@@ -1,0 +1,30 @@
+.ServicesContainer{
+    @apply flex flex-col w-full items-center justify-center pb-20
+}
+.ServicesTitle{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F8E4BE;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 4px #F8E4BE;
+    @apply text-7xl font-bold text-[#231619]
+}
+
+.ServicesContent{
+    @apply flex flex-row w-full justify-around items-center mt-10 flex-wrap
+}
+
+{/*CARD*/}
+.ServicesCardContainer{
+    @apply bg-[#54372A] rounded-3xl flex flex-col items-center justify-center px-6 h-[12em] pt-2 m-2
+}
+.ServicesCardImgDiv{
+    @apply w-full flex items-center justify-center h-[60%]
+}
+.ServicesCardDesc{
+    @apply w-full flex items-center justify-center mt-4 h-auto text-[#F8E4BE] text-base font-semibold
+}
+
+.ServicesCardImg{
+    @apply w-[90%] object-contain
+
+}

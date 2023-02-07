@@ -1,0 +1,24 @@
+.CardBlogContainer{
+    @apply w-full flex items-center justify-center
+
+}
+.CardBlogContent{
+    @apply flex flex-col items-start w-[90%] px-10 py-8 rounded-[30px]
+    bg-[#997D6C]
+    md:w-[80%]
+    xl:w-[50%]
+}
+.CardBlogImgs{
+    @apply flex flex-row w-1/2 mt-2
+}
+.CardImg{
+    @apply w-auto mr-4
+}
+.CardBlogDesc{
+    @apply text-[#F6E5DA] text-xs font-medium mt-3
+    md:text-base
+}
+.CardBlogTitle{
+    @apply text-[#Fff] text-base font-bold
+    md:text-3xl
+}

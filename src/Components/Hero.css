@@ -1,0 +1,46 @@
+.HeroContainer {
+    @apply flex flex-row w-full justify-center
+}
+.GlowHero{
+    @apply absolute w-[70%]  left-0 z-0
+    md:w-[40%]
+}
+.HeroContent{
+    @apply flex flex-col w-full px-4
+    md:flex-row
+    lg:w-[90%]
+}
+.HeroLeft{
+    @apply flex flex-col w-full  z-10 justify-center mt-20
+    md:w-[50%]
+    lg:w-[40%] lg:mt-0
+}
+
+.HeroRight{
+    @apply flex justify-center items-center w-full relative
+    md:w-[50%]
+    lg:w-[80%]
+}
+.HeroTitle{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F8E4BE;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 8px #F8E4BE;
+
+    @apply text-7xl font-bold text-[#231619] mt-4
+    md:text-7xl
+    xl:text-8xl
+}
+.HeroDesc{
+    @apply text-[#DABB9E] mt-10
+}
+.HeroImg{
+    @apply w-full h-full object-cover
+}
+.CoffeeBeans{
+    @apply absolute w-[80%] right-0 z-0
+}
+.HeroBtnSec{
+    @apply flex w-full mt-10 flex-col space-y-2
+    md:flex-row md:space-y-0
+}

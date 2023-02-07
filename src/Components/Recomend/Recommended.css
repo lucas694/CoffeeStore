@@ -1,0 +1,51 @@
+.RecommendedContainer{
+    @apply flex flex-col w-full relative items-center mt-40
+}
+.RecommendedContent{
+    @apply flex flex-col w-[90%] py-10 justify-between items-center mt-20
+    md:flex-row
+}
+.RecommendedTitle{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #F8E4BE;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0 0 4px #F8E4BE;
+    @apply text-7xl font-bold text-[#231619] z-10 absolute -top-14
+}
+/*cards*/
+.RecommendedCardContainer{
+    @apply flex flex-col w-[80%] h-auto relative rounded-[40px] overflow-hidden mt-10
+    border-2 border-[#6b483b] bg-gradient-to-bl from-[#6b483b] via-[#775142] to-[#6b483b]
+    sm:w-[60%]
+    md:w-[30%] md:mt-0
+    xl:w-[20%]
+}
+.RecommendedCard-Img{
+    @apply relative flex items-center justify-center
+}
+
+.RecommendedCardPhoto{
+    @apply w-full object-cover
+}
+
+.RecommendedCard-Desc{
+    @apply bg-[#6D544A]  w-full pt-4 grid grid-cols-2 divide-x flex flex-col justify-center items-center
+    divide-gray-300
+}
+.RecommendedName{
+   @apply text-gray-200 text-base font-semibold text-center
+}
+
+.RecommendedType{
+    @apply text-gray-200 text-sm font-medium text-center
+}
+.ShopIcon{
+    @apply absolute bottom-2 right-3 w-[9%] h-[9%] cursor-pointer
+    transition duration-500 ease-in-out
+    hover:text-[#F8E4BE]
+}
+.InfoIcon{
+    @apply absolute top-4 left-4 w-[8%] h-[8%] cursor-pointer
+    transition duration-500 ease-in-out
+    hover:text-[#F8E4BE]
+}
